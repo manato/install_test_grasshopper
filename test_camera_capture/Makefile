@@ -14,7 +14,7 @@ INC_PATH	= -I/usr/local/include/opencv -I/usr/local/include/opencv2 -I/usr/inclu
 LIB_PATH	= -L/usr/local/lib 
 
 # additional library
-LIB	= -lopencv_highgui -lopencv_core -lopencv_imgproc -lflycapture-c
+LIB	= -lopencv_highgui -lopencv_core -lopencv_imgproc -lflycapture-c -lstdc++
 
 all:
 	$(GCC) $(INC_PATH) $(LIB_PATH) -o $(TARGET) ./opencv_viewer.cpp $(LIB)

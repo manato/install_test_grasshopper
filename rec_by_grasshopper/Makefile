@@ -4,7 +4,7 @@
 TARGET	= rec_movie
 
 # compiler flag
-GCC	= gcc -g
+GCC	= g++ -g
 
 # additional include path
 INC_PATH	= -I/usr/local/include/opencv -I/usr/local/include/opencv2 -I/usr/include/flycapture 
